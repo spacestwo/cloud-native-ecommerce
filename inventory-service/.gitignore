@@ -1,0 +1,9 @@
+config.yaml
+local
+*.sum
+.env
+*.log
+*.out
+*.http
+cmd/dist
+bin
