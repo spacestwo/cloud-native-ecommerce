@@ -5,7 +5,7 @@ metadata:
   namespace: cloud-native-ecommerce
 spec:
   selector:
-    app: ecommerce-ui-service
+    app: ecommerce-ui
   ports:
     - port: 80
       targetPort: 4173
