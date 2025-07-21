@@ -25,12 +25,12 @@ echo "REDIS_KAFKA_VM_IP=$REDIS_KAFKA_VM_IP" >> vars.txt
 echo "SQL_INSTANCE_EXTERNAL_IP=$SQL_INSTANCE_EXTERNAL_IP" >> vars.txt
 
 
-gh secret set KEYCLOAK_IP --body "$KEYCLOAK_IP" -r "OlyMahmudMugdho/cloud-native-ecommerce" -a actions
+gh secret set KEYCLOAK_IP --body "$KEYCLOAK_IP" -r "spacestwo/cloud-native-ecommerce" -a actions
 
-gh secret set LB_IP --body "$LB_IP" -r "OlyMahmudMugdho/cloud-native-ecommerce" -a actions
+gh secret set LB_IP --body "$LB_IP" -r "spacestwo/cloud-native-ecommerce" -a actions
 
-gh secret set MONGODB_KEYCLOAK_VM_EXTERNAL_IP --body "$MONGODB_KEYCLOAK_VM_EXTERNAL_IP" -r "OlyMahmudMugdho/cloud-native-ecommerce" -a actions
+gh secret set MONGODB_KEYCLOAK_VM_EXTERNAL_IP --body "$MONGODB_KEYCLOAK_VM_EXTERNAL_IP" -r "spacestwo/cloud-native-ecommerce" -a actions
 
-gh secret set REDIS_KAFKA_VM_IP --body "$REDIS_KAFKA_VM_IP" -r "OlyMahmudMugdho/cloud-native-ecommerce" -a actions
+gh secret set REDIS_KAFKA_VM_IP --body "$REDIS_KAFKA_VM_IP" -r "spacestwo/cloud-native-ecommerce" -a actions
 
-gh secret set SQL_INSTANCE_EXTERNAL_IP --body "$SQL_INSTANCE_EXTERNAL_IP" -r "OlyMahmudMugdho/cloud-native-ecommerce" -a actions
+gh secret set SQL_INSTANCE_EXTERNAL_IP --body "$SQL_INSTANCE_EXTERNAL_IP" -r "spacestwo/cloud-native-ecommerce" -a actions
